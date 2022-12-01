@@ -27,40 +27,47 @@ def merge_dicts(*dict_args):
 
 
 HOST = 'http://interfacelift.com'
-RES_WIDESCREEN_16_10 = {
-    # widescreen 16:10
-    '6400x4000': '/wallpaper/downloads/date/wide_16:10/6400x4000/',
-    '5120x3200': '/wallpaper/downloads/date/wide_16:10/5120x3200/',
-    '3840x2400': '/wallpaper/downloads/date/wide_16:10/3840x2400/',
-    '3360x2100': '/wallpaper/downloads/date/wide_16:10/3360x2100/',
-    '2880x1800': '/wallpaper/downloads/date/wide_16:10/2880x1800/',
-    '2560x1600': '/wallpaper/downloads/date/wide_16:10/2560x1600/',
-    '2304x1440': '/wallpaper/downloads/date/wide_16:10/2304x1440/',
-    '2048x1280': '/wallpaper/downloads/date/wide_16:10/2048x1280/',
-    '1920x1200': '/wallpaper/downloads/date/wide_16:10/1920x1200/',
-    '1680x1050': '/wallpaper/downloads/date/wide_16:10/1680x1050/',
-    '1440x900': '/wallpaper/downloads/date/wide_16:10/1440x900/',
-    '1280x800': '/wallpaper/downloads/date/wide_16:10/1280x800/',
-    '1152x720': '/wallpaper/downloads/date/wide_16:10/1152x720/',
-    '1024x640': '/wallpaper/downloads/date/wide_16:10/1024x640/',
+RES_IPAD = {
+    # iPad
+    'ipad_pro_12.9': '/wallpaper/downloads/date/ipad/ipad_pro_(12.9)/',
+    # '2732x2732': '/wallpaper/downloads/date/ipad/2732x2732/',  # iPad Pro (12.9", 2732x2732)
+    'ipad_pro_10.5': '/wallpaper/downloads/date/ipad/ipad_pro_(10.5)/',
+    # '2224x2224': '/wallpaper/downloads/date/ipad/2224x2224/',  # iPad Pro (10.5", 2224x2224)
+    'ipad_air': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
+    'ipad_4': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
+    'ipad_3': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
+    'ipad_retina_mini': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
+    # '2048x2048': '/wallpaper/downloads/date/ipad/2048x2048/',  # iPad (3rd/4th Gen retina)
+    'ipad_mini': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
+    'ipad_1': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
+    'ipad_2': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
+    # '1024x1024': '/wallpaper/downloads/date/ipad/1024x1024/',  # iPad and iPad 2
 }
-RES_WIDESCREEN_16_9 = {
-    # widescreen 16:9
-    '5120x2880': '/wallpaper/downloads/date/wide_16:9/5120x2880/',
-    '3840x2160': '/wallpaper/downloads/date/wide_16:9/3840x2160/',
-    '3200x1800': '/wallpaper/downloads/date/wide_16:9/3200x1800/',
-    '2880x1620': '/wallpaper/downloads/date/wide_16:9/2880x1620/',
-    '2560x1440': '/wallpaper/downloads/date/wide_16:9/2560x1440/',
-    '1920x1080': '/wallpaper/downloads/date/wide_16:9/1920x1080/',
-    '1600x900': '/wallpaper/downloads/date/wide_16:9/1600x900/',
-    '1366x768': '/wallpaper/downloads/date/wide_16:9/1366x768/',
-    '1280x720': '/wallpaper/downloads/date/wide_16:9/1280x720/',
+RES_IPHONE = {
+    # iPhone
+    'iphone_x': '/wallpaper/downloads/date/iphone/iphone_x/',
+    'iphone_8_plus': '/wallpaper/downloads/date/iphone/iphone_6,_7,_8_plus/',
+    'iphone_7_plus': '/wallpaper/downloads/date/iphone/iphone_6,_7,_8_plus/',
+    'iphone_8': '/wallpaper/downloads/date/iphone/iphone_6,_7,_8/',
+    'iphone_7': '/wallpaper/downloads/date/iphone/iphone_7',
+    'iphone_6_plus': '/wallpaper/downloads/date/iphone/iphone_6,_7,_8_plus/',
+    'iphone_6': '/wallpaper/downloads/date/iphone/iphone_6,_7,_8/',
+    'iphone_5s': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
+    'iphone_5c': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
+    'iphone_5': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
+    'iphone_4': '/wallpaper/downloads/date/iphone/iphone_4,_4s/',
+    'iphone_4s': '/wallpaper/downloads/date/iphone/iphone_4,_4s/',
+    'iphone': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
+    'iphone_3g': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
+    'iphone_3gs': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
 }
-RES_WIDESCREEN_21_9 = {
-    # widescreen 21:9
-    '2560x1080': '/wallpaper/downloads/date/wide_21:9/2560x1080/',
-    '3440x1440': '/wallpaper/downloads/date/wide_21:9/3440x1440/',
-    '6400x3600': '/wallpaper/downloads/date/wide_21:9/6400x3600/',
+RES_ANDROID = {
+    # Google Android
+    '1080x1920': '/wallpaper/downloads/date/android/1080x1920_phone/',
+    '1280x800': '/wallpaper/downloads/date/android/1280x800_tablet/',
+    '720x1280': '/wallpaper/downloads/date/android/720x1280_phone/',
+    '480x854': '/wallpaper/downloads/date/android/480x854_phone/',
+    '480x800': '/wallpaper/downloads/date/android/480x800_phone/',
 }
 RES_DUAL_MONITORS = {
     # dual monitors
@@ -90,39 +97,61 @@ RES_TRIPLE_MONITORS = {
     '3840x720': '/wallpaper/downloads/date/3_screens/3840x720/',
     '3072x768': '/wallpaper/downloads/date/3_screens/3072x768/',
 }
-RES_IPHONE = {
-    # iPhone
-    'iphone_6_plus': '/wallpaper/downloads/date/iphone/iphone_6_plus/',
-    'iphone_6': '/wallpaper/downloads/date/iphone/iphone_6/',
-    'iphone_5s': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
-    'iphone_5c': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
-    'iphone_5': '/wallpaper/downloads/date/iphone/iphone_5s,_5c,_5/',
-    'iphone_4': '/wallpaper/downloads/date/iphone/iphone_4,_4s/',
-    'iphone_4s': '/wallpaper/downloads/date/iphone/iphone_4,_4s/',
-    'iphone': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
-    'iphone_3g': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
-    'iphone_3gs': '/wallpaper/downloads/date/iphone/iphone,_3g,_3gs/',
+RES_WIDESCREEN = {
+    # widescreen
+    '4096x2160': '/wallpaper/downloads/date/wide/4096x2160/',
 }
-RES_IPAD = {
-    # iPad
-    'ipad_air': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
-    'ipad_4': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
-    'ipad_3': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
-    'ipad_retina_mini': '/wallpaper/downloads/date/ipad/ipad_air,_4,_3,_retina_mini/',
-    'ipad_mini': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
-    'ipad_1': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
-    'ipad_2': '/wallpaper/downloads/date/ipad/ipad_mini,_ipad_1,_2/',
-    'ipad_pro_10.5': '/wallpaper/downloads/date/ipad/ipad_pro_(10.5)/',
-    'ipad_pro_12.9': '/wallpaper/downloads/date/ipad/ipad_pro_(12.9)/',
+RES_WIDESCREEN_16_10 = {
+    # widescreen 16:10 = 1.6
+    '6400x4000': '/wallpaper/downloads/date/wide_16:10/6400x4000/',
+    '5120x3200': '/wallpaper/downloads/date/wide_16:10/5120x3200/',
+    '3840x2400': '/wallpaper/downloads/date/wide_16:10/3840x2400/',
+    '3360x2100': '/wallpaper/downloads/date/wide_16:10/3360x2100/',
+    '2880x1800': '/wallpaper/downloads/date/wide_16:10/2880x1800/',  # Retina MacBook Pro 15
+    '2560x1600': '/wallpaper/downloads/date/wide_16:10/2560x1600/',  # Retina MacBook Pro 13
+    '2304x1440': '/wallpaper/downloads/date/wide_16:10/2304x1440/',
+    '2048x1280': '/wallpaper/downloads/date/wide_16:10/2048x1280/',
+    '1920x1200': '/wallpaper/downloads/date/wide_16:10/1920x1200/',
+    '1680x1050': '/wallpaper/downloads/date/wide_16:10/1680x1050/',
+    '1440x900': '/wallpaper/downloads/date/wide_16:10/1440x900/',
+    '1280x800': '/wallpaper/downloads/date/wide_16:10/1280x800/',
+    '1152x720': '/wallpaper/downloads/date/wide_16:10/1152x720/',
+    '1024x640': '/wallpaper/downloads/date/wide_16:10/1024x640/',
+}
+RES_WIDESCREEN_16_9 = {
+    # widescreen 16:9 = 1.78
+    '6400x3600': '/wallpaper/downloads/date/wide_16:9/6400x3600/',
+    '5120x2880': '/wallpaper/downloads/date/wide_16:9/5120x2880/',
+    '4096x2304': '/wallpaper/downloads/date/wide_16:9/4096x2304/',
+    '3840x2160': '/wallpaper/downloads/date/wide_16:9/3840x2160/',  # 4k UHDTV
+    '3200x1800': '/wallpaper/downloads/date/wide_16:9/3200x1800/',
+    '2880x1620': '/wallpaper/downloads/date/wide_16:9/2880x1620/',
+    '2560x1440': '/wallpaper/downloads/date/wide_16:9/2560x1440/',
+    '1920x1080': '/wallpaper/downloads/date/wide_16:9/1920x1080/',  # 1080p HDTV
+    '1600x900': '/wallpaper/downloads/date/wide_16:9/1600x900/',
+    '1366x768': '/wallpaper/downloads/date/wide_16:9/1366x768/',
+    '1280x720': '/wallpaper/downloads/date/wide_16:9/1280x720/',  # 720p HDTV
+}
+RES_WIDESCREEN_21_9 = {
+    # widescreen 21:9 = 2.33
+    '3440x1440': '/wallpaper/downloads/date/wide_21:9/3440x1440/',
+    '2560x1080': '/wallpaper/downloads/date/wide_21:9/2560x1080/'
+}
+RES_WIDESCREEN_24_10 = {
+    # widescreen 24:10 = 2.4
+    '3840x1600': '/wallpaper/downloads/date/wide_24:10/3840x1600/',
 }
 RES_PATHS = merge_dicts(
+    RES_IPAD,
+    RES_IPHONE,
+    RES_ANDROID,
+    RES_DUAL_MONITORS,
+    RES_TRIPLE_MONITORS,
+    RES_WIDESCREEN,
     RES_WIDESCREEN_16_10,
     RES_WIDESCREEN_16_9,
     RES_WIDESCREEN_21_9,
-    RES_DUAL_MONITORS,
-    RES_TRIPLE_MONITORS,
-    RES_IPHONE,
-    RES_IPAD,
+    RES_WIDESCREEN_24_10,
 )
 
 IMG_PATH_PATTERN = re.compile(r'<a href=\"(?P<path>.+)\"><img.+?src=\"/img_NEW/button_download')
